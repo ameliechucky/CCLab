@@ -20,5 +20,5 @@ function setup() {
   function draw() {
     noStroke();
     fill(random(255), random(255), random(255), 30);
-    ellipse(random(width), random(height), 200, 200);
+    circle(random(width), random(height), 200);
   }
