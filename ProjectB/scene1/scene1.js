@@ -48,6 +48,7 @@ function preload() {
 function setup() {
   let a = createCanvas(1200, 600);
   a.parent("scene1");
+  getAudioContext().suspend();
 
 }
 
@@ -201,6 +202,7 @@ function draw() {
 
 
 function mousePressed() {
+  userStartAudio();
   textAppear = true;
   if (pressAble == true) {
     if (mouseX - x > 180) {
