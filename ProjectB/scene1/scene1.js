@@ -25,23 +25,23 @@ let start1;
 
 
 function preload() {
-  click = loadImage("../image/click.png");
-  myFont = loadFont("../font/cuteFont.ttf");
-  text1 = loadSound("../text/1-1.m4a");
-  move = loadSound("../audio/short.mp3");
-  rHead = loadImage("../image/scene1/headR.png");
-  rShell = loadImage("../image/scene1/shellR.png");
-  rMove = loadImage("../image/scene1/moveR.png");
-  rLeft = loadImage("../image/scene1/leftR.png");
-  rRight = loadImage("../image/scene1/rightR.png");
+  click = loadImage("image/click.png");
+  myFont = loadFont("font/cuteFont.ttf");
+  text1 = loadSound("text/1-1.m4a");
+  move = loadSound("audio/short.mp3");
+  rHead = loadImage("image/scene1/headR.png");
+  rShell = loadImage("image/scene1/shellR.png");
+  rMove = loadImage("image/scene1/moveR.png");
+  rLeft = loadImage("image/scene1/leftR.png");
+  rRight = loadImage("image/scene1/rightR.png");
 
-  lHead = loadImage("../image/scene1/headL.png");
-  lShell = loadImage("../image/scene1/shellL.png");
-  lMove = loadImage("../image/scene1/moveL.png");
-  lLeft = loadImage("../image/scene1/leftL.png");
-  lRight = loadImage("../image/scene1/rightL.png");
+  lHead = loadImage("image/scene1/headL.png");
+  lShell = loadImage("image/scene1/shellL.png");
+  lMove = loadImage("image/scene1/moveL.png");
+  lLeft = loadImage("image/scene1/leftL.png");
+  lRight = loadImage("image/scene1/rightL.png");
 
-  sign = loadImage("../image/scene1/heretostart.png");
+  sign = loadImage("image/scene1/heretostart.png");
 
 }
 
